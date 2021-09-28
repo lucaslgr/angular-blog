@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContatoComponent } from './contato/contato.component';
+import { FeedComponent } from './feed/feed.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    ContatoComponent
+    ContatoComponent,
+    FeedComponent,
   ],
   imports: [
     BrowserModule,
